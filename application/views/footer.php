@@ -3,11 +3,8 @@
  !-------------------------------------------------------------------->
 
                 <p class="footer">
-                    <a href="mailto:dustinbayer@gmail.com" 
-                       target="_top"> 
-                        DUSTINBAYER@GMAIL.COM
-                    </a>
-                    <br>
+                    <?php $this->load->view("content/icons_content")?> 
+                    
                     <a href='http://www.greengeeks.com' 
                        alt='GreenGeeks'
                        target="_blank">
