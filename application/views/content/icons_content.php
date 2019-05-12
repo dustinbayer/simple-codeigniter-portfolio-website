@@ -13,3 +13,4 @@
         <?php $this->load->view("content/icons/linkedin.svg") ?> 
     </a>
 </div>
+
