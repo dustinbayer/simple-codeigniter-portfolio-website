@@ -21,6 +21,19 @@
         font-style:normal;
     }
     
+    .comment {
+        background-color: #34372C;
+        border-radius: 10px;
+        position: fixed;
+        bottom: 50px;
+        z-index: 1000;
+    }
+    
+    .comment_spacer {
+        width: 100%;
+        height: 360px;
+    }
+    
     #container {
         width: 100vw;
         height: 100vh;
@@ -45,11 +58,9 @@
         margin: auto;
         position: absolute;
         top: 50%;
-        left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: center;
-        align-content: center;
     }
 
     a {
@@ -98,6 +109,7 @@
     .detail {
         width: 90%;
         text-align: start;
+        margin: 20px;
     }
     
     table, th, td {
@@ -127,9 +139,17 @@
 		body {
             font-size: 2rem;
 		}
+        
+        .comment {
+            min-height: 250px;
+            left: 260px;
+            right: 50px;
+            font-size: 1.5rem;
+        }
 		
 		#content {
             width: 90%;
+            left: 50%;
 		}
 		
 		h1 {
@@ -178,9 +198,17 @@
 		  font-size: 1.5rem;
 		}
         
+        .comment {
+            width: 300px;
+            min-height: 150px;
+            left: 160px;
+            font-size: 1rem;
+        }
+        
         #content {
             width: 30%;
             min-width: 460px;
+            left: 70%;
 		}
 		
 		h1 {

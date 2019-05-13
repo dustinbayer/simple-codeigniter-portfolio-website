@@ -3,7 +3,8 @@
  !-------------------------------------------------------------------->
 
                 <p class="footer">
-                    <?php $this->load->view("content/icons_content")?> 
+
+<?php $this->load->view("content/icons_content")?> 
                     
                     <a href='http://www.greengeeks.com' 
                        alt='GreenGeeks'
@@ -12,6 +13,7 @@
                              border='0' 
                              id="greengeeks">
                     </a>
+                    <div class="comment_spacer"></div>
                 </p>
             </div> <!--Content-->
         </div> <!--Container-->
