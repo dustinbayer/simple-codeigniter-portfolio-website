@@ -22,6 +22,7 @@
     }
     
     .comment {
+        height: auto;
         background-color: #34372C;
         border-radius: 10px;
         position: fixed;
@@ -141,7 +142,6 @@
 		}
         
         .comment {
-            min-height: 250px;
             left: 260px;
             right: 50px;
             font-size: 1.5rem;
@@ -200,7 +200,6 @@
         
         .comment {
             width: 300px;
-            min-height: 150px;
             left: 160px;
             font-size: 1rem;
         }
