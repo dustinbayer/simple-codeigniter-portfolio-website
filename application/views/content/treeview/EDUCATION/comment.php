@@ -1,1 +1,1 @@
-Education stuff
+Hello, friend! Go to dustinbayer.dev to see my full portfolio or contact me at dustinbayer@gmail.com

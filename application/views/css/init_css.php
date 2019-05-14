@@ -28,6 +28,14 @@
         position: fixed;
         bottom: 50px;
         z-index: 1000;
+        padding: 0 10px;
+    }
+    
+    .image_container {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        z-index: 999;
     }
     
     .comment_spacer {
@@ -46,10 +54,11 @@
     }
     
     .doodle {
-        max-width: 100%;
-        max-height: 100%;
+        width: 100%;
+        height: 100%;
         position:fixed;
-        z-index: -1;
+        right: 0px;
+        top: 0px;
         overflow: hidden;
     }
     
@@ -146,6 +155,12 @@
             right: 50px;
             font-size: 1.5rem;
         }
+        
+        .image_container {
+            width: 250px;
+            height: 250px;
+            background-image: url('me_250.png'); 
+        }
 		
 		#content {
             width: 90%;
@@ -202,6 +217,12 @@
             width: 300px;
             left: 160px;
             font-size: 1rem;
+        }
+        
+        .image_container {
+            width: 150px;
+            height: 150px;
+            background-image: url('me_150.png'); 
         }
         
         #content {
