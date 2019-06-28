@@ -23,7 +23,10 @@
  ! HTML BODY
  !-------------------------------------------------------------------->
     <body>
+
+<?php $this->load->view("content/doodle_content")?>
+        
         <div id="container">
-            <?php $this->load->view("content/doodle_content")?> 
             <div id="content">
+                <img src="website_photo.png" alt="Image of Dustin Bayer">
 

@@ -7,16 +7,10 @@
     ::selection { background-color: #FF6F61; color: #A3A991; }
     ::-moz-selection { background-color: #FF6F61; color: #A3A991; }
     
-    @font-face {
-        font-family: opendyslexicregular;
-        src: url('opendyslexic-regular-webfont.woff2') format('woff2'),
-             url('opendyslexic-regular-webfont.woff') format('woff');
-    }
-    
     body {
         background-color: #34372C;
         color: #A3A991;
-        font-family: opendyslexicregular, Arial, sans-serif;
+        font-family:  Arial, sans-serif;
         font-weight:normal;
         font-style:normal;
     }
@@ -32,10 +26,11 @@
     }
     
     .doodle {
-        max-width: 100%;
-        max-height: 100%;
+        width: 100%;
+        height: 100%;
         position:fixed;
-        z-index: -1;
+        right: 0px;
+        top: 0px;
         overflow: hidden;
     }
     
@@ -98,6 +93,7 @@
     .detail {
         width: 90%;
         text-align: start;
+        margin: 20px;
     }
     
     table, th, td {
